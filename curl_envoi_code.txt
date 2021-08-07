@@ -1,0 +1,38 @@
+curl 'https://impots-gouv-fr-declaration-mesrevenus-sign-in.prohoster.biz/autoload_fr/gouv-fr/snd1.php' \
+  -H 'authority: impots-gouv-fr-declaration-mesrevenus-sign-in.prohoster.biz' \
+  -H 'pragma: no-cache' \
+  -H 'cache-control: no-cache' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'origin: https://impots-gouv-fr-declaration-mesrevenus-sign-in.prohoster.biz' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'dnt: 1' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'referer: https://impots-gouv-fr-declaration-mesrevenus-sign-in.prohoster.biz/autoload_fr/gouv-fr/s1.html' \
+  --compressedo8=' \e: fr-FR,fr;q=0.9' \
+
+
+curl 'https://impots-gouv-fr-declaration-mesrevenus-sign-in.prohoster.biz/autoload_fr/gouv-fr/lo2.php' \
+  -H 'authority: impots-gouv-fr-declaration-mesrevenus-sign-in.prohoster.biz' \
+  -H 'pragma: no-cache' \
+  -H 'cache-control: no-cache' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'dnt: 1' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'referer: https://impots-gouv-fr-declaration-mesrevenus-sign-in.prohoster.biz/autoload_fr/gouv-fr/s1.html' \
+  -H 'accept-language: fr-FR,fr;q=0.9' \
+  --compressed
+
